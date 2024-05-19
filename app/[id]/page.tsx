@@ -1,5 +1,11 @@
 import ItemCard from "@/components/item-card";
-import { ItemType, allItems } from "@/data";
+import { ItemType, itemTypes, allItems } from "@/data";
+
+export async function generateStaticParams() {
+  return itemTypes.map((id: any) => ({
+    id,
+  }));
+}
 
 export default function Page({
   params: { id },
