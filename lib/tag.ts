@@ -1,5 +1,4 @@
 import { TagId, allTags } from "@/data/tag";
-import { join } from "path";
 
 export const mainTags: TagId[] = ["illust", "photo", "icon"];
 

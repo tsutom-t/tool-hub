@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useTagParams } from "@/hooks/tag-params";
-import { addTagToSearchParmas, getTagLabel, mainTags } from "@/lib/tag";
+import { getTagLabel, mainTags } from "@/lib/tag";
 import { Menu } from "lucide-react";
 import Link from "next/link";
 

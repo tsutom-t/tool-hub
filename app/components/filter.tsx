@@ -3,7 +3,6 @@
 import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
 import { useTagParams } from "@/hooks/tag-params";
-import { addTagToSearchParmas } from "@/lib/tag";
 import { useRouter } from "next/navigation";
 
 export default function Filter() {
