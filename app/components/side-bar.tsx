@@ -14,7 +14,7 @@ export default function SideBar() {
       <div className="flex flex-col">
         {mainTags.map((tagId) => (
           <Button variant="ghost" className="justify-start" key={tagId} asChild>
-            <Link href={`/?tags=${addTagToSearchParmas(tagId)}`}>
+            <Link href={`?tags=${addTagToSearchParmas(tagId)}`}>
               {getTagLabel(tagId)}
             </Link>
           </Button>
