@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/tool-hub",
+  // basePath: "/tool-hub",
   images: {
     unoptimized: true,
   },
