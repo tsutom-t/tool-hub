@@ -14,6 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: AppConfig.title,
   description: AppConfig.description,
+  metadataBase: new URL("https://tool-hub-coral.vercel.app/"),
 };
 
 export default function RootLayout({

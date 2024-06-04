@@ -2,21 +2,21 @@ import { Item } from "@/app/types/item";
 
 export const allItems: Item[] = [
   {
-    id: "illust",
+    id: "irasutoya",
     href: "https://www.irasutoya.com/",
     title: "イラストや",
-    tags: ["no-license-required", "illust"],
+    tags: ["no-license-required", "illust", "free"],
   },
   {
-    id: "illust",
-    href: "https://www.irasutoya.com/",
+    id: "pixabay",
+    href: "https://pixabay.com/ja/",
     title: "Pixabay",
-    tags: ["no-license-required", "photo", "illust", "video"],
+    tags: ["no-license-required", "photo", "illust", "video", "free"],
   },
   {
-    id: "illust",
-    href: "https://www.irasutoya.com/",
-    title: "Unsplash",
-    tags: ["no-license-required", "free", "photo", "public-domain"],
+    id: "vectorshelf",
+    href: "https://vectorshelf.com/",
+    title: "ベクターシェルフ",
+    tags: ["free", "illust"],
   },
 ] as const;
